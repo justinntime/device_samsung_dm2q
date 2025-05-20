@@ -47,9 +47,6 @@ on post-fs-data
     mkdir /efs/afc 0760 system system
     exec - system system -- /system/bin/mafpc_write
 
-    chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
-    chmod 0660 /sys/class/drm/sde-crtc-0/measured_fps
-
 on boot
 # SDHMS Slowdown : Cpuset
     mkdir /dev/cpuset/abnormal

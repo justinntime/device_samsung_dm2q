@@ -16,13 +16,7 @@ TARGET_OTA_ASSERT_DEVICE := dm2q
 TARGET_SCREEN_DENSITY := 450
 
 # Kernel
-#BUILD_NO_ROOT := true
-
-ifeq ($(BUILD_NO_ROOT), true)
-    TARGET_KERNEL_CONFIG := dm2q_derp_defconfig
-else
-    TARGET_KERNEL_CONFIG := dm2q_derp+_defconfig
-endif
+TARGET_KERNEL_CONFIG := dm2q_derp+_defconfig
 
 # Kernel Modules
 BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.recovery))
