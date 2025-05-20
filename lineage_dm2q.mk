@@ -23,7 +23,7 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="dm2qksx-user 15 AP3A.240905.015.A2 S916NKSU6DYD9 release-keys" \
-    BuildFingerprint=samsung/dm2qksx/dm2q:15/AP3A.240905.015.A2/S916NKSU6DYD9:user/release-keys \
+    BuildDesc="dm2qksx-user 14 UP1A.231005.007 S916NKSS6CYB3 release-keys" \
+    BuildFingerprint=samsung/dm2qksx/dm2q:14/UP1A.231005.007/S916NKSS6CYB3:user/release-keys \
     DeviceProduct=dm2qksx \
     SystemName=dm2qksx
